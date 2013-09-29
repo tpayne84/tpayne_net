@@ -1,0 +1,22 @@
+<header class="navbar">
+  <div class="navbar-inner">
+    <div class="container">
+    <div class="brand" >
+			<%= link_to "Flatstrap App", root_path %>
+		</div>
+      <nav>
+        <ul class="nav pull-right">
+          <li><%= link_to "Home",    root_path %></li>
+          <li id="fat-menu" class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">New Deck <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><%= link_to "Sample Link 1", root_path %></li>
+                <li class="divider"></li>
+                <li><%= link_to "Sample Link 2", root_path %></li>
+              </ul>
+            </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>
