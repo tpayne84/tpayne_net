@@ -7,6 +7,11 @@ body {
 	background-size: 100%;
 }
 
+.outline h1 {
+	visibility: hidden;
+	display: none;
+}
+
 .tans-5 {
 	opacity: 0.5;
 }
@@ -19,12 +24,58 @@ body {
 	opacity: 0.9;
 }
 
+.article-box {
+	margin-top: 2%;
+	width:95%;
+	background: rgb(255, 255, 255); /* Fall-back for browsers that don't support rgba */
+    background: rgba(255, 255, 255, .8);
+	margin-bottom: 2%;
+	padding: 10px;
+
+	-webkit-border-radius: 50px;
+	-moz-border-radius: 50px;
+	border-radius: 50px;
+
+	  -moz-box-shadow: 10px 10px 5px #363636;
+	  -webkit-box-shadow: 10px 10px 5px #363636;
+	  box-shadow: 10px 10px 5px #363636;
+}
+
+.article-wrapper {
+	margin-top: 2%;
+	width:80%;
+	background: rgb(255, 255, 255); /* Fall-back for browsers that don't support rgba */
+    background: rgba(255, 255, 255, .8);
+	margin-bottom: 2%;
+	padding: 10px;
+
+	-webkit-border-radius: 50px;
+	-moz-border-radius: 50px;
+	border-radius: 50px;
+
+	-moz-box-shadow: 10px 10px 5px #363636;
+	-webkit-box-shadow: 10px 10px 5px #363636;
+	box-shadow: 10px 10px 5px #363636;
+}
+
 .login-box {
 	margin-top: 75px;
 	width:400px;
-	height:400px;
-	background: white;
+	background: rgb(255, 255, 255); /* Fall-back for browsers that don't support rgba */
+    background: rgba(255, 255, 255, .8);
+	padding: 10px;
+	-webkit-border-radius: 50px;
+	-moz-border-radius: 50px;
+	border-radius: 50px;
+}
 
+.signup-box {
+	margin-top: 2%;
+	width:400px;
+	background: rgb(255, 255, 255); /* Fall-back for browsers that don't support rgba */
+    background: rgba(255, 255, 255, .8);
+	margin-bottom: 2%;
+	padding: 10px;
 	-webkit-border-radius: 50px;
 	-moz-border-radius: 50px;
 	border-radius: 50px;
@@ -72,32 +123,4 @@ body {
 .push-5 {
   margin-right: 5%;
   margin-left: 5%;
-}
-
-.card {
-	width: 650px;
-	height: 350px;
-	background-color: white;
-	border: 1px solid black;
-	font-family: 'Gloria Hallelujah', cursive;
-	overflow: scroll;
-}
-
-.card-header {
-  border-bottom-width:2px;
-  border-bottom-style:solid;
-  border-bottom-color:red;
-  padding-bottom: 5px;
-}
-
-.card-row {
-  padding: 5px;
-  border-bottom-width:1px;
-  border-bottom-style:solid;
-  border-bottom-color:blue;
-
-/* Format the text */
-text-align: left;
-margin-left: 5%;
-margin-right: 5%;
 }
